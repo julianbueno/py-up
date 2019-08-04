@@ -10,8 +10,8 @@ import sys
 
 # Complete the findNumber function below.
 def findNumber(arr, k):
-    for index, item in enumerate(arr):
-        if item > k:
+    for item in arr:
+        if int(item) == k:
             return "YES"
 
     return "NO"
